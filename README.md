@@ -18,7 +18,7 @@ npm install
 ...and build the application.
 
 ```
-npm build
+npm run build
 ```
 
 This should pull up a page in your favorite web browser saying "I'm an app!"
