@@ -4,13 +4,14 @@
   "main": "main.js",
   "author": "Holben888 <holben888@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "rollup": "^1.1.2",
-    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-livereload": "^1.0.1",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-svelte": "^5.0.1",
-    "svelte": "3.0.0-beta.3"
+    "svelte": "^3.6.5"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js --watch"
